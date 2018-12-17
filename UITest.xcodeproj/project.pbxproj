@@ -7,21 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07D84E2604B09325CFB2AA84 /* Pods_UITest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 410563032C878B4F6DE361E5 /* Pods_UITest.framework */; };
+		41A0748821C59700004FF962 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A0748721C59700004FF962 /* Login.swift */; };
+		41A0748A21C59BC4004FF962 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A0748921C59BC4004FF962 /* Main.swift */; };
+		41A0748C21C59FB2004FF962 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 41A0748B21C59FB1004FF962 /* GoogleService-Info.plist */; };
+		41A0749D21C68937004FF962 /* ContactsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A0749B21C68937004FF962 /* ContactsCell.swift */; };
+		41A0749E21C68937004FF962 /* ContactsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41A0749C21C68937004FF962 /* ContactsCell.xib */; };
+		41A074A021C6A14A004FF962 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A0749F21C6A14A004FF962 /* Message.swift */; };
 		41A6628621C263F600BAF57A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A6628521C263F600BAF57A /* AppDelegate.swift */; };
-		41A6628821C263F600BAF57A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A6628721C263F600BAF57A /* ViewController.swift */; };
+		41A6628821C263F600BAF57A /* Signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A6628721C263F600BAF57A /* Signup.swift */; };
 		41A6628B21C263F600BAF57A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41A6628921C263F600BAF57A /* Main.storyboard */; };
 		41A6628D21C263FB00BAF57A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41A6628C21C263FB00BAF57A /* Assets.xcassets */; };
 		41A6629021C263FB00BAF57A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41A6628E21C263FB00BAF57A /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		410563032C878B4F6DE361E5 /* Pods_UITest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UITest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41A0748721C59700004FF962 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		41A0748921C59BC4004FF962 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		41A0748B21C59FB1004FF962 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		41A0749B21C68937004FF962 /* ContactsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsCell.swift; sourceTree = "<group>"; };
+		41A0749C21C68937004FF962 /* ContactsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactsCell.xib; sourceTree = "<group>"; };
+		41A0749F21C6A14A004FF962 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		41A6628221C263F600BAF57A /* UITest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41A6628521C263F600BAF57A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		41A6628721C263F600BAF57A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		41A6628721C263F600BAF57A /* Signup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signup.swift; sourceTree = "<group>"; };
 		41A6628A21C263F600BAF57A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		41A6628C21C263FB00BAF57A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41A6628F21C263FB00BAF57A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41A6629121C263FB00BAF57A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B6C06990BEBF18F134C4A06 /* Pods-UITest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITest.release.xcconfig"; path = "Pods/Target Support Files/Pods-UITest/Pods-UITest.release.xcconfig"; sourceTree = "<group>"; };
+		56B5C0D1BB12B388F868BD07 /* Pods-UITest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UITest/Pods-UITest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07D84E2604B09325CFB2AA84 /* Pods_UITest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +57,8 @@
 			children = (
 				41A6628421C263F600BAF57A /* UITest */,
 				41A6628321C263F600BAF57A /* Products */,
+				501A2425B5FD994C61C5683F /* Pods */,
+				C86DE392690CB389950D53C5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +74,36 @@
 			isa = PBXGroup;
 			children = (
 				41A6628521C263F600BAF57A /* AppDelegate.swift */,
-				41A6628721C263F600BAF57A /* ViewController.swift */,
+				41A6628721C263F600BAF57A /* Signup.swift */,
 				41A6628921C263F600BAF57A /* Main.storyboard */,
+				41A0748921C59BC4004FF962 /* Main.swift */,
+				41A0749F21C6A14A004FF962 /* Message.swift */,
+				41A0748721C59700004FF962 /* Login.swift */,
 				41A6628C21C263FB00BAF57A /* Assets.xcassets */,
 				41A6628E21C263FB00BAF57A /* LaunchScreen.storyboard */,
+				41A0749B21C68937004FF962 /* ContactsCell.swift */,
+				41A0749C21C68937004FF962 /* ContactsCell.xib */,
 				41A6629121C263FB00BAF57A /* Info.plist */,
+				41A0748B21C59FB1004FF962 /* GoogleService-Info.plist */,
 			);
 			path = UITest;
+			sourceTree = "<group>";
+		};
+		501A2425B5FD994C61C5683F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				56B5C0D1BB12B388F868BD07 /* Pods-UITest.debug.xcconfig */,
+				4B6C06990BEBF18F134C4A06 /* Pods-UITest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C86DE392690CB389950D53C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				410563032C878B4F6DE361E5 /* Pods_UITest.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +113,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 41A6629421C263FB00BAF57A /* Build configuration list for PBXNativeTarget "UITest" */;
 			buildPhases = (
+				478401846B5261AEC97A1C66 /* [CP] Check Pods Manifest.lock */,
 				41A6627E21C263F600BAF57A /* Sources */,
 				41A6627F21C263F600BAF57A /* Frameworks */,
 				41A6628021C263F600BAF57A /* Resources */,
+				6FA050E28B93996B9EC6EC8A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,19 +167,78 @@
 			buildActionMask = 2147483647;
 			files = (
 				41A6629021C263FB00BAF57A /* LaunchScreen.storyboard in Resources */,
+				41A0748C21C59FB2004FF962 /* GoogleService-Info.plist in Resources */,
 				41A6628D21C263FB00BAF57A /* Assets.xcassets in Resources */,
 				41A6628B21C263F600BAF57A /* Main.storyboard in Resources */,
+				41A0749E21C68937004FF962 /* ContactsCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		478401846B5261AEC97A1C66 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UITest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FA050E28B93996B9EC6EC8A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-UITest/Pods-UITest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UITest/Pods-UITest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		41A6627E21C263F600BAF57A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41A6628821C263F600BAF57A /* ViewController.swift in Sources */,
+				41A0748821C59700004FF962 /* Login.swift in Sources */,
+				41A6628821C263F600BAF57A /* Signup.swift in Sources */,
+				41A0749D21C68937004FF962 /* ContactsCell.swift in Sources */,
+				41A074A021C6A14A004FF962 /* Message.swift in Sources */,
+				41A0748A21C59BC4004FF962 /* Main.swift in Sources */,
 				41A6628621C263F600BAF57A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,16 +383,21 @@
 		};
 		41A6629521C263FB00BAF57A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56B5C0D1BB12B388F868BD07 /* Pods-UITest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F4A3T37S5D;
 				INFOPLIST_FILE = UITest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ahmedelelaimy.UITest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -297,16 +405,21 @@
 		};
 		41A6629621C263FB00BAF57A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B6C06990BEBF18F134C4A06 /* Pods-UITest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F4A3T37S5D;
 				INFOPLIST_FILE = UITest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ahmedelelaimy.UITest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
